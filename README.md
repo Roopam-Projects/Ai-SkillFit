@@ -95,10 +95,10 @@ function submitAnswer() {
         result = "Job Ready ✅";
     } 
     else if(score > 40){
-        result = "Needs Training ⚠️";
+        result = "Needs Training ";
     } 
     else {
-        result = "Manual Review ❌";
+        result = "Manual Review ";
     }
 
     document.getElementById("result").innerHTML = "Status: " + result;
